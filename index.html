@@ -1,29 +1,296 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Meu portfólio</title>
+   <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+     <link rel="stylesheet" href="styles.css" />
+    <title> Meu portifólio</title>
 </head>
-
 <body>
-    <header>
-        <img src="img/avatar-perfil.png" alt="avatar da Fernanda" srcset="">
-        <p>Eu sou Fernanda_</p>
-        <h1>Eu ensino Programação</h1>
-        <p>Sou Engenheira de Computação e Pedagoga. Ensino pensamento computacional para estudantes do Ensino
-            Fundamental e Médio. Ensino sobre pensamento computacional usando HTML, CSS e JavaScript. Veja os projetos
-            que já desenvolvi!</p>
-        <p>Minhas habilidades</p>
-        <div>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>JavaScript</p>
-            <p>Scratch</p>
-        </div>
+  <header class="container text-center">
+ <img src="img/IMG_20240609_161011_615.jpg" alt="" class="rounded-circle" width="150" height="150">
+ <h1 class="lead">Eu sou Guilherme</h1>
+ <h2>  Sou estudante e musíco</h2>
+ <p> Estou terminando 3º serie do ensino medío, tenho conhecimento musícais e toco sax alto, tenho esperiência em agricultura e manejo rural.  </p>
+ <h2 class="habilidades">minhas habilidades</h2>
+ <div>
+   <p class="badge text-bg-secondary"> html e css basíco</p>
+   <p class="badge text-bg-secondary"> java script basíco</p>
+  <p class="badge text-bg-secondary"> Scratch</p>
+   <p class="badge text-bg-secondary" >saxofonista</p>
+ </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+  crossorigin="anonymous"></script>
     </header>
-</body>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
 
+            <!-- projeto1 -->
+
+            <div class="col-md-4">
+                <div class="card" >
+                    <img src="img/alura books.png" class="card-img-top" alt="Imagem do projeto de web site do Alura">
+                    <div class="card-body">
+                        <h5 class="card-title"> Alura plus </h5>
+                        <p class="card-text">Este projeto é uma página web que apresenta um anúncio do Alura com imgens e umaestrtura personalizada. A página é estilizada com CSS para uma visualização agradável e usa fontes externas do Google Fonts.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+                    </div>
+                </div>
+                </div>
+
+                <!-- projeto2 -->
+
+                  <div class="col-md-4">
+                <div class="card" >
+                    <img src="img/web alura.png" class="card-img-top" alt="Imagem do projeto de uma site  com os cursos do Alura">
+                    <div class="card-body">
+                        <h5 class="card-title"> alura books: uma Webpage </h5>
+                        <p class="card-text">Este projeto é uma página web que apresenta os cursos diponiveis no alura de forma separada. A página é estilizada com CSS para uma visualização agradável e usa fontes externas do Google Fonts.</p>
+                       <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+                    </div>
+                </div>
+        </div>
+         
+        <!-- projeto3 -->
+
+          <div class="col-md-4">
+                <div class="card" >
+                    <img src="img/sax tutoriais.png" class="card-img-top" alt="Imagem do projeto sax tutoriais">
+                    <div class="card-body">
+                        <h5 class="card-title"> sax tutoriais: uma página criada para auxiliar saxonfonistas</h5>
+                        <p class="card-text">Este projeto é uma página web que apresenta uma gama de aulas de saxonfone para ajudar os saxonfonistas a estudar. Nesta página foram utlizados CSS e Html como base de todo o projeto.
+                   <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
+                        </div>
+                </div>
+        </div>
+            </div>
+</main>
+
+<!-- modal 1 -->
+
+<div class="modal" id="modal1" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Alura plus</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Esse projeto foi feito em CSS e HTML, com um designer sofeticado e bem planejado para umpequeno trabalho de escola, com os codigos bem estruturados e organizados. </p>
+            </div>
+            <div class="modal-footer">
+                <a href="https://guilhermemateuss.github.io/web/">Ver projeto ao vivo</a>
+                <a href="https://github.com/guilhermemateuss/web/blob/main/index.html">Ver código do projeto</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+                <!-- modal 2 -->
+
+                <div class="modal" id="modal2" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Alura books</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Esse projeto foi feito em CSS e HTML, com um designer sofeticado e bem planejado para umpequeno trabalho de escola, com os codigos bem estruturados e organizados. </p>
+            </div>
+            <div class="modal-footer">
+                <a href="https://guilhermemateuss.github.io/alurabook/">Ver projeto ao vivo</a>
+                <a href="">Ver código do projeto</a>
+                <a href="">Ver código do projeto</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+                <!-- modal 3 -->
+
+                <div class="modal" id="modal3" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">sax tutoriais</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Esse projeto foi feito em CSS e HTML, com um designer sofeticado e bem planejado para um pequeno trabalho de escola, com os códigos bem estruturados e organizados. </p>
+            </div>
+            <div class="modal-footer">
+                <a href="https://guilhermemateuss.github.io/1saxTutoriais/">Ver projeto ao vivo</a>
+                <a href="https://github.com/guilhermemateuss/1saxTutoriais/blob/main/index.html">Ver código do projeto</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="container py-5">
+    <h2>Entre em contato</h2>
+    <div>
+        <i class="bi bi-github"></i>
+        <a href="https://github.com/guilhermemateuss">GitHub</a>
+    </div>
+    <p class="my-5 text-center">© Copyright 2024. Produzido por Guilherme Mateus</p>
+</footer>  
+</body>
 </html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+     <link rel="stylesheet" href="styles.css" />
+    <title> Meu portifólio</title>
+</head>
+<body>
+  <header class="container text-center">
+ <img src="img/IMG_20240609_161011_615.jpg" alt="" class="rounded-circle" width="150" height="150">
+ <h1 class="lead">Eu sou Guilherme</h1>
+ <h2>  Sou estudante e músico</h2>
+ <p> Estou terminando 3º serie do ensino médio, tenho conhecimento musícais e toco sax alto, tenho esperiência em agricultura e manejo rural.  </p>
+ <h2 class="habilidades">minhas habilidades</h2>
+ <div>
+   <p class="badge text-bg-secondary"> html e css basíco</p>
+   <p class="badge text-bg-secondary"> java script basíco</p>
+  <p class="badge text-bg-secondary"> Scratch</p>
+   <p class="badge text-bg-secondary" >saxofonista</p>
+ </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+  crossorigin="anonymous"></script>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+
+            <!-- projeto1 -->
+
+            <div class="col-md-4">
+                <div class="card" >
+                    <img src="img/alura books.png" class="card-img-top" alt="Imagem do projeto de web site do Alura">
+                    <div class="card-body">
+                        <h5 class="card-title"> Alura plus </h5>
+                        <p class="card-text">Este projeto é uma página web que apresenta um anúncio do Alura com imgens e umaestrtura personalizada. A página é estilizada com CSS para uma visualização agradável e usa fontes externas do Google Fonts.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+                    </div>
+                </div>
+                </div>
+
+                <!-- projeto2 -->
+
+                  <div class="col-md-4">
+                <div class="card" >
+                    <img src="img/web alura.png" class="card-img-top" alt="Imagem do projeto de uma site  com os cursos do Alura">
+                    <div class="card-body">
+                        <h5 class="card-title"> alura books: uma Webpage </h5>
+                        <p class="card-text">Este projeto é uma página web que apresenta os cursos diponiveis no alura de forma separada. A página é estilizada com CSS para uma visualização agradável e usa fontes externas do Google Fonts.</p>
+                       <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+                    </div>
+                </div>
+        </div>
+         
+        <!-- projeto3 -->
+
+          <div class="col-md-4">
+                <div class="card" >
+                    <img src="img/sax tutoriais.png" class="card-img-top" alt="Imagem do projeto sax tutoriais">
+                    <div class="card-body">
+                        <h5 class="card-title"> sax tutoriais: uma página criada para auxiliar saxonfonistas</h5>
+                        <p class="card-text">Este projeto é uma página web que apresenta uma gama de aulas de saxonfone para ajudar os saxonfonistas a estudar. Nesta página foram utlizados CSS e Html como base de todo o projeto.
+                   <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
+                        </div>
+                </div>
+        </div>
+            </div>
+</main>
+
+<!-- modal 1 -->
+
+<div class="modal" id="modal1" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Alura plus</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Esse projeto foi feito em CSS e HTML, com um designer sofeticado e bem planejado para umpequeno trabalho de escola, com os codigos bem estruturados e organizados. </p>
+            </div>
+            <div class="modal-footer">
+                <a href="https://guilhermemateuss.github.io/web/">Ver projeto ao vivo</a>
+                <a href="https://github.com/guilhermemateuss/web/blob/main/index.html">Ver código do projeto</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+                <!-- modal 2 -->
+
+                <div class="modal" id="modal2" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Alura books</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Esse projeto foi feito em CSS e HTML, com um designer sofeticado e bem planejado para umpequeno trabalho de escola, com os codigos bem estruturados e organizados. </p>
+            </div>
+            <div class="modal-footer">
+                <a href="https://guilhermemateuss.github.io/alurabook/">Ver projeto ao vivo</a>
+                <a href="">Ver código do projeto</a>
+                <a href="">Ver código do projeto</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+                <!-- modal 3 -->
+
+                <div class="modal" id="modal3" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">sax tutoriais</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Esse projeto foi feito em CSS e HTML, com um designer sofeticado e bem planejado para umpequeno trabalho de escola, com os codigos bem estruturados e organizados. </p>
+            </div>
+            <div class="modal-footer">
+                <a href="https://guilhermemateuss.github.io/1saxTutoriais/">Ver projeto ao vivo</a>
+                <a href="https://github.com/guilhermemateuss/1saxTutoriais/blob/main/index.html">Ver código do projeto</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="container py-5">
+    <h2>Entre em contato</h2>
+    <div>
+        <i class="bi bi-github"></i>
+        <a href="https://github.com/guilhermemateuss">GitHub</a>
+    </div>
+    <p class="my-5 text-center">© Copyright 2024. Produzido por Guilherme Mateus</p>
+</footer>  
+</body>
+</html>
+
+
